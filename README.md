@@ -16,18 +16,25 @@ Each branch in repository is used for building specific versions.
 
 ## Usage
 
-```
-# Run it
+### Run it
+
+```bash
 docker run -d \
   --tty \
   --privileged \
   --volume /sys/fs/cgroup:/sys/fs/cgroup:ro \
   --name maodevops-centos-systemd \
   maodevops/centos-systemd:latest
+```
 
-# Enter it
+### Enter it
+
+```bash
 docker exec -it maodevops-centos-systemd /bin/bash
+```
 
-# Remove it
+### Remove it
+
+```bash
 docker rm -f maodevops-centos-systemd
 ```
