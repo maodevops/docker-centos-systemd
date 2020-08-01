@@ -6,7 +6,7 @@ CentOS image that has systemd enabled.
 
 ## Branches
 
-Each branch in repository is used for building specific versions.
+Each branch in the repository is used for building a specific version.
 
 | Branch | CentOS Version | FROM Docker image tag |
 | ------ | -------------- | --------------------- |
