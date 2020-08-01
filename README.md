@@ -23,18 +23,18 @@ docker run -d \
   --tty \
   --privileged \
   --volume /sys/fs/cgroup:/sys/fs/cgroup:ro \
-  --name maodevops-centos-systemd \
-  maodevops/centos-systemd:latest
+  --name maodevops-centos7.8-systemd \
+  maodevops/centos-systemd:7.8
 ```
 
 ### Enter it
 
 ```bash
-docker exec -it maodevops-centos-systemd /bin/bash
+docker exec -it maodevops-centos7.8-systemd /bin/bash
 ```
 
 ### Remove it
 
 ```bash
-docker rm -f maodevops-centos-systemd
+docker rm -f maodevops-centos7.8-systemd
 ```
