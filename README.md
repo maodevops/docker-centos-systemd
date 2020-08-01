@@ -1,10 +1,12 @@
-# docker-centos-systemd
+# Docker CentOS Systemd
 
-A Dockerfile for building CentOS images that have systemd enabled.
+[![build status](https://img.shields.io/docker/cloud/build/maodevops/centos-systemd)](https://hub.docker.com/repository/docker/maodevops/centos-systemd)
+
+CentOS image that has systemd enabled.
 
 ## Branches
 
-Each branch in this git repository is used for building specific versions.
+Each branch in repository is used for building specific versions.
 
 | Branch | CentOS Version | FROM Docker image tag |
 | ------ | -------------- | --------------------- |
